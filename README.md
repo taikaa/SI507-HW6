@@ -78,7 +78,7 @@ Some JavaScript code
 ```
 **Taika Augustaitis (laima)**
 * **What does a code comment look like in JavaScript? What character/s do you have to put before a comment?**
-<br> // for single line and for block content the forward slashes and asterisks
+<br> // for single line and for multi line content  `/* */`
 
 * **Explain what needs to happen to get a JavaScript program to "run", given the JavaScript you've seen in this assignment.**
 <br> You have to call the function within the html
@@ -135,7 +135,7 @@ function handleClick(){
 * **Check out the file `jquerylib_submit_example.html`. This is an example of code that uses a package called `jQuery` (and this will need you to have an internet connection to run it properly, although the other file does not). Check out resources above for more on jQuery!**
 
 * **When you enter input that isn't valid, you see an error that is red. Why is the error in red? Why is the response for valid inputs blue?**
-<br> Because within the style tag in the file, the class error was given a value of red using css, whereas the class good was given a value of blue
+<br> Because within the style tag in the file, the class error was given a color value of red using css, whereas the class good was given a color value of blue
 
 * **What is this line `var regex = /^[a-zA-Z]+$/;` helping with? And if you googled something to figure that out, what did you google, and what, briefly, did you learn? (If you didn't need to google, you can leave that out, but explain briefly what that line is helping the program do, anyway.)**
 <br> I googled ^ in regular expressions and came upon this great resource https://www.rexegg.com/regex-quickstart.html
@@ -145,7 +145,7 @@ This regex makes sure that lower case a-z or uppercase A-Z characters are the va
 <br> In JavaScript indentation of blocks of code is just for legibility rather than syntax as in Python. elif in Python translates to else if in Javscript. Conditional statements are contained within ()s in JavaScript and use different comparison and logical operators such as ==, ===, &&, ||.
 
 * **What do you think the `10000` refers to in the code `.fadeOut(10000)`?**
-<br> The fadeout makes the error and success text fade from the page within that unit of time as the input. Note: hard to see success message because the form submits. This animation may be desirable if the designer wants the error message to go away after a little while. However, if the message goes away too quickly, the user may not have time to read the message and know that the error was on their input.
+<br> The fadeout makes the error and success text fade from the page within that unit of time as the input. The 10000 represents the amount of time the animation fadeOut will run. Note: hard to see success message because the form submits. This animation may be desirable if the designer wants the error message to go away after a little while. However, if the message goes away too quickly, the user may not have time to read the message and know that the error was on their input.
 
 * **What do you think is going on with the following code at the beginning of the program? Note that the most important thing to do for answering this question is to be thoughtful and clear, not to be absolutely correct:**
 <br>
